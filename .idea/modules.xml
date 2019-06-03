@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/household_provider/household_provider.iml" filepath="$PROJECT_DIR$/household_provider/household_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/household_providerdeta/household_providerdeta.iml" filepath="$PROJECT_DIR$/household_providerdeta/household_providerdeta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall_consumer/mall_consumer.iml" filepath="$PROJECT_DIR$/mall_consumer/mall_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservice.iml" filepath="$PROJECT_DIR$/.idea/microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pcservice_provider/pcservice_provider.iml" filepath="$PROJECT_DIR$/pcservice_provider/pcservice_provider.iml" />
+    </modules>
+  </component>
+</project>
