@@ -1,0 +1,25 @@
+APPLICATION_ID: microservice-shop
+service_description:
+  name: householdproviderdeta
+  version: 0.0.1
+cse:
+  service:
+    registry:
+      address: https://cse.cn-north-1.myhuaweicloud.com:443
+      instance:
+        watch: true
+  config:
+    client:
+      serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
+      refreshMode: 1
+      refresh_interval: 5000
+  monitor:
+    client:
+      serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
+  rest:
+      address: 0.0.0.0:18082
+  credentials:
+        accessKey: BOWBCZKUZAHNK1XR6W1Z
+        secretKey: GYkAEQgHXGBF83gnMcsUHLeyri3te9lAGl4XQ59B
+        project: cn-north-1
+        akskCustomCipher: default
