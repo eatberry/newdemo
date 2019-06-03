@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f65789b-015e-47f2-8747-5aa3f892c77d" name="Default" comment="" />
+    <list default="true" id="3f65789b-015e-47f2-8747-5aa3f892c77d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/household_provider/target/classes/com/microservice/StartApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/household_provider/target/classes/com/microservice/model/HouseHold.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/household_provider/target/classes/com/microservice/model/PCService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/household_provider/target/classes/com/microservice/model/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/household_provider/target/classes/com/microservice/provider/HouseHoldProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/household_provider/target/classes/microservice.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/household_providerdeta/target/classes/com/microservice/StartApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/household_providerdeta/target/classes/com/microservice/model/HouseHold.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/household_providerdeta/target/classes/com/microservice/model/PCService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/household_providerdeta/target/classes/com/microservice/model/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/household_providerdeta/target/classes/com/microservice/provider/HouseHoldProviderDeta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/household_providerdeta/target/classes/microservice.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_consumer/target/classes/com/microservice/StartApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_consumer/target/classes/com/microservice/consumer/MallConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_consumer/target/classes/com/microservice/model/HouseHold.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_consumer/target/classes/com/microservice/model/PCService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_consumer/target/classes/com/microservice/model/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_consumer/target/classes/com/microservice/model/Resultp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_consumer/target/classes/com/microservice/service/HouseHoldProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_consumer/target/classes/com/microservice/service/HouseHoldProviderDeta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_consumer/target/classes/com/microservice/service/PCServiceProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_consumer/target/classes/microservice.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_consumer/target/classes/spring/springmvc.xml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/household_provider/target/" />
     <ignored path="$PROJECT_DIR$/household_providerdeta/target/" />
     <ignored path="$PROJECT_DIR$/PCService_provider/target/" />
@@ -148,6 +173,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -223,7 +251,7 @@
     <option name="jreName" value="#JAVA_HOME" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="550" />
     <option name="y" value="63" />
     <option name="width" value="784" />
@@ -245,6 +273,39 @@
               <item name="household-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="household-master" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="household-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="household-master" type="462c0819:PsiDirectoryNode" />
+              <item name="household_provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="household-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="household-master" type="462c0819:PsiDirectoryNode" />
+              <item name="household_providerdeta" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="household-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="household-master" type="462c0819:PsiDirectoryNode" />
+              <item name="mall_consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="household-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="household-master" type="462c0819:PsiDirectoryNode" />
+              <item name="pcservice_provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="household-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="household-master" type="462c0819:PsiDirectoryNode" />
+              <item name="pcservice_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="household-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="household-master" type="462c0819:PsiDirectoryNode" />
+              <item name="pcservice_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -257,7 +318,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559565629093" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559566666681" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/testDemo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -418,7 +479,7 @@
     <option name="totallyTimeSpent" value="42971000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1426" height="905" extended-state="7" />
+    <frame x="-8" y="-8" width="1426" height="905" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2796486" />
       <window_info id="Structure" order="1" weight="0.25" />
