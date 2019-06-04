@@ -19,7 +19,7 @@ cse:
   rest:
       address: 0.0.0.0:18082
   credentials:
-        accessKey: BOWBCZKUZAHNK1XR6W1Z
-        secretKey: GYkAEQgHXGBF83gnMcsUHLeyri3te9lAGl4XQ59B
-        project: cn-north-1
-        akskCustomCipher: default
+      accessKey: BOWBCZKUZAHNK1XR6W1Z
+      secretKey: GYkAEQgHXGBF83gnMcsUHLeyri3te9lAGl4XQ59B
+      project: cn-north-1
+      akskCustomCipher: default

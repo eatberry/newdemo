@@ -9,6 +9,7 @@
         <module name="household_provider" />
         <module name="household_providerdeta" />
         <module name="mall_consumer" />
+        <module name="mall_consumerweb" />
         <module name="pcservice_provider" />
         <module name="PCService_provider" />
       </profile>
@@ -18,6 +19,7 @@
       <module name="household_provider" target="1.5" />
       <module name="household_providerdeta" target="1.5" />
       <module name="mall_consumer" target="1.5" />
+      <module name="mall_consumerweb" target="1.5" />
       <module name="pcservice_provider" target="1.5" />
       <module name="PCService_provider" target="1.8" />
       <module name="views_controller" target="1.5" />

@@ -3,13 +3,11 @@ package com.microservice.consumer;
 import com.microservice.model.HouseHold;
 import com.microservice.model.PCService;
 import com.microservice.model.Result;
-import com.microservice.model.Resultp;
 import com.microservice.service.HouseHoldProvider;
 import com.microservice.service.HouseHoldProviderDeta;
 import com.microservice.service.PCServiceProvider;
 import org.apache.servicecomb.provider.pojo.RpcReference;
 import org.apache.servicecomb.provider.rest.common.RestSchema;
-import org.springframework.web.bind.annotation.RequestBody;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -83,9 +81,10 @@ public class MallConsumer {
     public Result transport(){
         return houseHoldProviderDeta.transport();
     }
-    //==================================================================
+    //================================v1==================================
 
 
+    //================================pcservice v0==================================
     /****
      * PC业务
      * @param pname
@@ -102,4 +101,5 @@ public class MallConsumer {
     public List<PCService> plist(){
         return pcServiceProvider.list();
     }
+    //================================pcservice v0==================================
 }
