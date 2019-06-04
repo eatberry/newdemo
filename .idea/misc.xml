@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/mall_consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/mall_consumerweb" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -14,4 +15,5 @@
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

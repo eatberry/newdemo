@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: com.huawei.paas.cse:cse-handler-cloud-extension:2.3.69">
     <CLASSES>
-      <root url="jar://D:/tools/maven/repo/com/huawei/paas/cse/cse-handler-cloud-extension/2.3.69/cse-handler-cloud-extension-2.3.69.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/huawei/paas/cse/cse-handler-cloud-extension/2.3.69/cse-handler-cloud-extension-2.3.69.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://D:/tools/maven/repo/com/huawei/paas/cse/cse-handler-cloud-extension/2.3.69/cse-handler-cloud-extension-2.3.69-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/huawei/paas/cse/cse-handler-cloud-extension/2.3.69/cse-handler-cloud-extension-2.3.69-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://D:/tools/maven/repo/com/huawei/paas/cse/cse-handler-cloud-extension/2.3.69/cse-handler-cloud-extension-2.3.69-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/huawei/paas/cse/cse-handler-cloud-extension/2.3.69/cse-handler-cloud-extension-2.3.69-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
