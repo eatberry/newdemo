@@ -7,7 +7,7 @@ cse:
     registry:
       address: https://cse.cn-north-1.myhuaweicloud.com:443
       instance:
-        watch: true
+        watch: false
   config:
     client:
       serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
