@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f65789b-015e-47f2-8747-5aa3f892c77d" name="Default" comment="test">
-      <change beforePath="" afterPath="$PROJECT_DIR$/test_provider/start.sh" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test_provider/startup.bat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test_provider/startup.sh" />
+    <list default="true" id="3f65789b-015e-47f2-8747-5aa3f892c77d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/test_provider/Dockerfile" afterPath="$PROJECT_DIR$/test_provider/Dockerfile" />
-      <change beforePath="$PROJECT_DIR$/test_provider/pom.xml" afterPath="$PROJECT_DIR$/test_provider/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/test_provider/src/main/java/com/microservice/provider/TestProvider.java" afterPath="$PROJECT_DIR$/test_provider/src/main/java/com/microservice/provider/TestProvider.java" />
     </list>
     <ignored path="$PROJECT_DIR$/household_provider/target/" />
     <ignored path="$PROJECT_DIR$/household_providerdeta/target/" />
@@ -40,8 +34,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_provider/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="441">
+              <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -604,7 +598,7 @@
       <updated>1559133426599</updated>
       <workItem from="1559133444830" duration="5674000" />
       <workItem from="1559361274147" duration="37297000" />
-      <workItem from="1559657599542" duration="22013000" />
+      <workItem from="1559657599542" duration="22040000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1559566698542</created>
@@ -683,11 +677,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559809093007</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="test">
+      <created>1559813536223</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1559813536223</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64984000" />
+    <option name="totallyTimeSpent" value="65011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -1092,8 +1093,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="441">
+          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
           <folding />
         </state>
       </provider>
