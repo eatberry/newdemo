@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/PCService_provider/pom.xml" />
         <option value="$PROJECT_DIR$/mall_consumer/pom.xml" />
         <option value="$PROJECT_DIR$/mall_consumerweb/pom.xml" />
+        <option value="$PROJECT_DIR$/test_provider/pom.xml" />
       </list>
     </option>
   </component>
