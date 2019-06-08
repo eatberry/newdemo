@@ -1,27 +1,43 @@
-  APPLICATION_ID: microservice-shop
-  service_description:
-    name: householdprovider
-    version: 0.0.1
-    properties:
-      allowCrossApp: false
-  cse:
-    service:
-      registry:
-        address: https://cse.cn-north-1.myhuaweicloud.com:443
-        instance:
-          watch: false
-    config:
-      client:
-        serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
-        refreshMode: 1
-        refresh_interval: 5000
-    #monitor:
-      #client:
-        #serverUri: https://cse.cn-north-1.myhuaweicloud.com
-    rest:
-      address: 0.0.0.0:18081
-    #credentials:
-      #accessKey: INWGFFM9ELTZXHPCPC5G
-      #secretKey: yeTR0MeaTMvZu4ioBrCrjtzzUJ266s0y2eA39UPv
-      #akskCustomCipher: default
-      #project: cn-north-1
+APPLICATION_ID: microservice-shop
+service_description:
+  name: householdprovider
+  version: 0.0.1
+  description: Basic version of weather service (excluding UV panel display).
+  properties:
+    allowCrossApp: false
+cse:
+  service:
+    registry:
+      address: https://cse.cn-north-1.myhuaweicloud.com:443
+      instance:
+        watch: false
+  config:
+    client:
+      serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
+      refreshMode: 1
+      refresh_interval: 5000
+  monitor:
+    client:
+      serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
+  rest:
+    address: 0.0.0.0:18081
+    server:
+      compression: false
+      connection:
+        idleTimeoutInSeconds: 2
+  handler:
+    chain:
+      Provider:
+        default: qps-flowcontrol-provider,bizkeeper-provider,auth-provider
+      Consumer:
+        default: qps-flowcontrol-consumer,loadbalance,fault-injection-consumer,bizkeeper-consumer
+  accesslog:
+    enabled: true
+    pattern: "%h %{dd/MMM/yyyy:HH:mm:ss.SSSZ|GMT+0008|en_US}t %r %s %B %D"
+#  credentials:
+#    accessKey: yourak
+#    secretKey: yoursk
+#    akskCustomCipher: default
+#    project: cn-north-1
+#addressResolver:  ## If failed with unable to resolve domain name in windows, you can resolve it by set addressResolver.
+#  servers: 8.8.8.8

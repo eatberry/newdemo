@@ -8,7 +8,7 @@
     <artifactId>household_provider</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <packaging>jar</packaging>
+    <!--<packaging>jar</packaging>
 
     <properties>
         <cse.version>2.3.69</cse.version>
@@ -44,6 +44,162 @@
                     <execution>
                         <goals>
                             <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>-->
+
+    <packaging>jar</packaging>
+
+    <name>household_provider</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <app.main>com.microservice.StartApp</app.main>
+        <cse.version>2.3.69</cse.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.huawei.paas.cse</groupId>
+                <artifactId>cse-dependency</artifactId>
+                <version>${cse.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.huawei.paas.cse</groupId>
+            <artifactId>cse-solution-service-engine</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.servicecomb</groupId>
+            <artifactId>handler-publickey-auth</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>2.10</version>
+                <executions>
+                    <execution>
+                        <id>copy-dependencies</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>target/lib</outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>1.8</version>
+                <executions>
+                    <execution>
+                        <id>make-vm-zip</id>
+                        <phase>package</phase>
+                        <configuration>
+                            <target>
+                                <zip destfile="target/${build.finalName}.zip">
+                                    <zipfileset dir="target/lib" prefix="lib" />
+                                    <zipfileset dir="target" includes="*.jar" />
+                                    <zipfileset dir="." includes="startup.sh" />
+                                    <zipfileset dir="." includes="shutdown.sh" />
+                                </zip>
+                            </target>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.6</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>./lib/</classpathPrefix>
+                            <mainClass>${app.main}</mainClass>
+                        </manifest>
+                        <manifestEntries>
+                            <Class-Path>.</Class-Path>
+                        </manifestEntries>
+                    </archive>
+                </configuration>
+            </plugin>
+
+            <!-- check style -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>3.0.0</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>com.puppycrawl.tools</groupId>
+                        <artifactId>checkstyle</artifactId>
+                        <version>8.11</version>
+                    </dependency>
+                </dependencies>
+                <executions>
+                    <execution>
+                        <id>validate</id>
+                        <phase>validate</phase>
+                        <configuration>
+                            <encoding>UTF-8</encoding>
+                            <configLocation>checkstyle.xml</configLocation>
+                            <consoleOutput>true</consoleOutput>
+                            <failOnViolation>false</failOnViolation>
+                            <outputFile>target/checkstyle/checkstyle-result.xml</outputFile>
+                        </configuration>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- findbugs -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>findbugs-maven-plugin</artifactId>
+                <version>3.0.4</version>
+                <configuration>
+                    <effort>Low</effort>
+                    <threshold>Low</threshold>
+                    <failOnError>false</failOnError>
+                    <findbugsXmlOutput>true</findbugsXmlOutput>
+                    <findbugsXmlOutputDirectory>target/findbugs</findbugsXmlOutputDirectory>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>run-findbugs</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>check</goal>
                         </goals>
                     </execution>
                 </executions>
