@@ -67,6 +67,10 @@
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.26" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
     <orderEntry type="library" name="Maven: org.apache.servicecomb:transport-highway:1.2.0.B006" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.servicecomb:java-chassis-core:1.2.0.B006" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.brave:brave:5.6.0" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.zipkin2:zipkin:2.9.3" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-reporter:2.5.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.servicecomb:common-protobuf:1.2.0.B006" level="project" />
     <orderEntry type="library" name="Maven: org.apache.servicecomb:common-javassist:1.2.0.B006" level="project" />
     <orderEntry type="library" name="Maven: org.javassist:javassist:3.24.0-GA" level="project" />
@@ -138,6 +142,7 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.8" level="project" />
     <orderEntry type="library" name="Maven: io.reactivex:rxjava:1.1.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.7" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.servicecomb:handler-publickey-auth:1.2.0.B006" level="project" />
     <orderEntry type="library" name="Maven: com.huawei.paas.cse:cse-handler-performance-stats:2.3.69" level="project" />
     <orderEntry type="library" name="Maven: com.huawei.paas.cse:cse-handler-cloud-extension:2.3.69" level="project" />
     <orderEntry type="library" name="Maven: org.apache.servicecomb:service-registry:1.2.0.B006" level="project" />
@@ -148,12 +153,5 @@
     <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.2.1.Final" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml:classmate:1.3.4" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish:javax.el:3.0.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.servicecomb:handler-publickey-auth:1.2.0.B006" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.servicecomb:java-chassis-core:1.2.0.B006" level="project" />
-    <orderEntry type="library" name="Maven: io.zipkin.brave:brave:5.6.0" level="project" />
-    <orderEntry type="library" name="Maven: io.zipkin.zipkin2:zipkin:2.9.3" level="project" />
-    <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-reporter:2.5.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.12" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>
 </module>
