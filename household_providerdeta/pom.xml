@@ -34,7 +34,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainclass>com.microservice.StartApp</mainclass>
+                    <mainClass>com.microservice.StartApp</mainClass>
                 </configuration>
                 <executions>
                     <execution>

@@ -1,11 +1,5 @@
 FROM openjdk:8u181-jdk-alpine
-
-RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
-    echo "Asia/Shanghai" > /etc/timezone
-
 WORKDIR /home/apps/
-ADD target/household_provider.jar .
-ADD target/lib ./lib
-ADD start.sh .
-
-ENTRYPOINT ["sh", "/home/apps/start.sh"]
+COPY target/*.jar app.jar
+RUN sh -c 'touch app.jar'
+ENTRYPOINT [ "sh", "-c", "java -Djava.security.egd=file:/dev/./urandom -jar -Xmx256m app.jar" ]
