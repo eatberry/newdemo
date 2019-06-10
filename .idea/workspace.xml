@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f65789b-015e-47f2-8747-5aa3f892c77d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/pcservice_provider/src/main/resources/META-INF/spring/spring.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test_provider/src/main/resources/META-INF/spring/spring.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test_provider/Dockerfile" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pcservice_provider/pom.xml" afterPath="$PROJECT_DIR$/pcservice_provider/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/household_provider/target/" />
     <ignored path="$PROJECT_DIR$/household_providerdeta/target/" />
@@ -24,16 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/household_provider/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="48" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_provider/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -84,11 +72,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="microservice.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="microservice.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pcservice_provider/src/main/resources/microservice.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
               <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_provider/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -431,11 +429,11 @@
       <recent name="com.microservice.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\repo\newdemo\test_provider" />
       <recent name="D:\repo\newdemo\pcservice_provider\src\main\resources" />
       <recent name="D:\repo\newdemo\test_provider\src\main\resources" />
       <recent name="D:\repo\newdemo" />
       <recent name="D:\repo\newdemo\household_provider\src\main\resources\config" />
-      <recent name="D:\repo\newdemo\test_provider" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -657,7 +655,7 @@
       <workItem from="1559361274147" duration="37297000" />
       <workItem from="1559657599542" duration="22128000" />
       <workItem from="1559910762438" duration="18894000" />
-      <workItem from="1560039862278" duration="26146000" />
+      <workItem from="1560039862278" duration="26337000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1559566698542</created>
@@ -869,14 +867,22 @@
       <option name="project" value="LOCAL" />
       <updated>1560173655971</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="test">
+      <created>1560174509570</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1560174509570</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110139000" />
+    <option name="totallyTimeSpent" value="110330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -892,7 +898,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23827533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23827533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1004,7 +1010,6 @@
     <entry file="file://$PROJECT_DIR$/test_provider/start.sh" />
     <entry file="file://$PROJECT_DIR$/test_provider/startup.bat" />
     <entry file="file://$PROJECT_DIR$/test_provider/startup.sh" />
-    <entry file="file://$PROJECT_DIR$/test_provider/Dockerfile" />
     <entry file="file://$MAVEN_REPOSITORY$/com/huawei/paas/cse/cse-dependency/2.3.69/cse-dependency-2.3.69.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3228">
@@ -1256,6 +1261,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_provider/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
