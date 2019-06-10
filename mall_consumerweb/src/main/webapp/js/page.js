@@ -1,25 +1,19 @@
 var app = new Vue({
-    el: "#app",
+    el:'#app',
     data:{
-        entity:{},
+        goods:'商品',
         dataList:[]
     },
     methods:{
-        searchEntity:function (name) {
-            axios.get("/consumer/v0/sell?"+name).then(function (response) {
-                app.entity = response.data
-            })
-        },
-
-        searchList: function (){
-            axios.get("/consumer/v0/list").then(function(response){
+        searchList:function(){
+            axios.get('/consumer/v0/plist').then(function(response){
                 app.dataList = response.data
             })
         }
     },
-    created:function () {
-        this.searchEntity("冰箱");
+    created:function(){
+        searchList()
 
-        this.searchList();
     }
-}) 
+
+})

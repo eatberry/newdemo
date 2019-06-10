@@ -8,10 +8,8 @@
     <artifactId>household_provider</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <packaging>jar</packaging>
-
     <properties>
-        <cse.version>2.3.69</cse.version>
+        <cse.version>2.3.62</cse.version>
     </properties>
 
     <dependencyManagement>
@@ -25,14 +23,12 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
     <dependencies>
         <dependency>
             <groupId>com.huawei.paas.cse</groupId>
             <artifactId>cse-solution-service-engine</artifactId>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>

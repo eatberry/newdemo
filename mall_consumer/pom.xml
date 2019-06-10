@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
 
     <properties>
-        <cse.version>2.3.69</cse.version>
+        <cse.version>2.3.62</cse.version>
     </properties>
 
     <dependencyManagement>
