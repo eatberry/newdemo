@@ -12,6 +12,7 @@
         <module name="mall_consumerweb" />
         <module name="pcservice_provider" />
         <module name="PCService_provider" />
+        <module name="test_provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,7 +23,7 @@
       <module name="mall_consumerweb" target="1.5" />
       <module name="pcservice_provider" target="1.5" />
       <module name="PCService_provider" target="1.8" />
-      <module name="test_provider" target="1.8" />
+      <module name="test_provider" target="1.5" />
       <module name="views_controller" target="1.5" />
     </bytecodeTargetLevel>
   </component>

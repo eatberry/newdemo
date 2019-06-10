@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/mall_consumerweb/mall_consumerweb.iml" filepath="$PROJECT_DIR$/mall_consumerweb/mall_consumerweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/newdemo.iml" filepath="$PROJECT_DIR$/.idea/newdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/pcservice_provider/pcservice_provider.iml" filepath="$PROJECT_DIR$/pcservice_provider/pcservice_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_provider/test_provider.iml" filepath="$PROJECT_DIR$/test_provider/test_provider.iml" />
     </modules>
   </component>
 </project>
