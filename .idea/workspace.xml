@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f65789b-015e-47f2-8747-5aa3f892c77d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/household_provider/src/main/resources/META-INF/spring/spring.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/household_provider/src/main/resources/META-INF/spring/spring.xml" afterPath="$PROJECT_DIR$/household_provider/src/main/resources/META-INF/spring/cse.bean.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/household_provider/target/" />
     <ignored path="$PROJECT_DIR$/household_providerdeta/target/" />
@@ -32,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/household_provider/src/main/resources/META-INF/spring/spring.xml">
+      <file leaf-file-name="cse.bean.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/household_provider/src/main/resources/META-INF/spring/cse.bean.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -151,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mall_consumer/src/main/java/com/microservice/model/msg.java" />
         <option value="$PROJECT_DIR$/mall_consumer/src/main/webapp/1.jsp" />
         <option value="$PROJECT_DIR$/mall_consumer/src/main/java/com/microservice/model/Object.java" />
         <option value="$PROJECT_DIR$/mall_consumer/src/main/java/com/microservice/model/Household.java" />
@@ -202,6 +201,7 @@
         <option value="$PROJECT_DIR$/test_provider/src/main/resources/microservice.yaml" />
         <option value="$PROJECT_DIR$/test_provider/src/main/resources/spring/spring.xml" />
         <option value="$PROJECT_DIR$/pcservice_provider/pom.xml" />
+        <option value="$PROJECT_DIR$/household_provider/src/main/resources/META-INF/spring/spring.xml" />
       </list>
     </option>
   </component>
@@ -665,7 +665,7 @@
       <workItem from="1559361274147" duration="37297000" />
       <workItem from="1559657599542" duration="22128000" />
       <workItem from="1559910762438" duration="18894000" />
-      <workItem from="1560039862278" duration="27471000" />
+      <workItem from="1560039862278" duration="27693000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1559566698542</created>
@@ -891,11 +891,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560174700299</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="test">
+      <created>1560175987908</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1560175987908</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111464000" />
+    <option name="totallyTimeSpent" value="111686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1284,10 +1291,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/household_provider/src/main/resources/META-INF/spring/spring.xml">
+    <entry file="file://$PROJECT_DIR$/household_provider/src/main/resources/META-INF/spring/cse.bean.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding />
         </state>
       </provider>
