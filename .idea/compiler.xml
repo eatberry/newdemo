@@ -12,7 +12,6 @@
         <module name="mall_consumerweb" />
         <module name="pcservice_provider" />
         <module name="PCService_provider" />
-        <module name="test_provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
