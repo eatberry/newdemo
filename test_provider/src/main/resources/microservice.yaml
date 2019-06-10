@@ -2,6 +2,8 @@ APPLICATION_ID: microservice-shop
 service_description:
   name: testprovider
   version: 0.0.1
+  properties:
+    allowCrossApp: false
 cse:
   service:
     registry:
@@ -17,9 +19,11 @@ cse:
     client:
       serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
   rest:
-      address: 0.0.0.0:18086
-  #credentials:
-  #    accessKey: INWGFFM9ELTZXHPCPC5G
-  #    secretKey: yeTR0MeaTMvZu4ioBrCrjtzzUJ266s0y2eA39UPv
-  #    project: cn-north-1
-  #    akskCustomCipher: default
+    address: 0.0.0.0:18086
+  request:
+    timeout: 3000
+  credentials:
+      accessKey: 47AI59VC4U7QFA6MGXR9
+      secretKey: X4VxU2QAhWHoMYj0PgGxcwggsmJ0lx1oEXDRefdg
+      project: cn-north-1
+      akskCustomCipher: default
