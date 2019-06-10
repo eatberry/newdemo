@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.huawei.paas.cse:cse-handler-performance-stats:2.3.62">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/huawei/paas/cse/cse-handler-performance-stats/2.3.62/cse-handler-performance-stats-2.3.62.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/huawei/paas/cse/cse-handler-performance-stats/2.3.62/cse-handler-performance-stats-2.3.62-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/huawei/paas/cse/cse-handler-performance-stats/2.3.62/cse-handler-performance-stats-2.3.62-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
