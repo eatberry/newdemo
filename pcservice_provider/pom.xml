@@ -34,7 +34,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>1.3.8.RELEASE</version>
                 <configuration>
-                    <mainclass>com.microservice.StartApp</mainclass>
+                    <mainClass>com.microservice.StartApp</mainClass>
                 </configuration>
                 <executions>
                     <execution>
