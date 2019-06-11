@@ -24,7 +24,7 @@ public class MallConsumer {
     private HouseHoldProvider houseHoldProvider;
 
     //rpc远程注入HouseHoldProviderDeta
-    @RpcReference(microserviceName = "householdproviderdeta",schemaId = "household")
+    @RpcReference(microserviceName = "householdprovider",schemaId = "household")
     private HouseHoldProviderDeta houseHoldProviderDeta;
 
     //rpc远程注入PCServiceProvider
