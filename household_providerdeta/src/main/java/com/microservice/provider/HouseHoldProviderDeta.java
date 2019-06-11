@@ -68,7 +68,6 @@ public class HouseHoldProviderDeta {
         Result result = new Result();
         result.setMsg("本店节假日同城开启配送服务，只要活动期间付款成功，均可享受免费配送服务");
         result.setUrl("image/transport.jpg");
-
         return result;
     }
 
