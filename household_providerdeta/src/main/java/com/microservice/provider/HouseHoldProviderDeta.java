@@ -45,6 +45,8 @@ public class HouseHoldProviderDeta {
         }
     }
 
+
+
     /****
      * 所有商品
      * @return
