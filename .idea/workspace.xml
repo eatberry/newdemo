@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3f65789b-015e-47f2-8747-5aa3f892c77d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/mall_consumer/src/main/java/com/microservice/consumer/MallConsumer.java" afterPath="$PROJECT_DIR$/mall_consumer/src/main/java/com/microservice/consumer/MallConsumer.java" />
       <change beforePath="$PROJECT_DIR$/mall_consumer/src/main/resources/microservice.yaml" afterPath="$PROJECT_DIR$/mall_consumer/src/main/resources/microservice.yaml" />
     </list>
     <ignored path="$PROJECT_DIR$/household_provider/target/" />
@@ -36,8 +35,8 @@
       <file leaf-file-name="microservice.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mall_consumer/src/main/resources/microservice.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+            <state relative-caret-position="420">
+              <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -883,7 +882,7 @@
       <workItem from="1559910762438" duration="18894000" />
       <workItem from="1560039862278" duration="30320000" />
       <workItem from="1560234436991" duration="7383000" />
-      <workItem from="1560310916882" duration="9965000" />
+      <workItem from="1560310916882" duration="10005000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1559566698542</created>
@@ -1200,11 +1199,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560329078288</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="test">
+      <created>1560330645003</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1560330645003</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131661000" />
+    <option name="totallyTimeSpent" value="131701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1550,8 +1556,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mall_consumer/src/main/resources/microservice.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        <state relative-caret-position="420">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding />
         </state>
       </provider>
