@@ -18,8 +18,8 @@ cse:
       serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
   rest:
       address: 0.0.0.0:18081
-  householdprovider:
-    sellGoods: firstprefix
+householdprovider:
+  firstPro: firstprefix
   #credentials:
   #    accessKey: INWGFFM9ELTZXHPCPC5G
   #    secretKey: yeTR0MeaTMvZu4ioBrCrjtzzUJ266s0y2eA39UPv
