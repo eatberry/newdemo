@@ -16,7 +16,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="commons_model" target="1.8" />
-      <module name="household_provider" target="1.5" />
+      <module name="household_provider" target="1.8" />
       <module name="household_providerdeta" target="1.5" />
       <module name="mall_consumer" target="1.5" />
       <module name="mall_consumerweb" target="1.5" />
