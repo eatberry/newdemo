@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f65789b-015e-47f2-8747-5aa3f892c77d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/mall_consumerweb/package.json" />
+    <list default="true" id="3f65789b-015e-47f2-8747-5aa3f892c77d" name="Default" comment="test">
+      <change beforePath="" afterPath="$PROJECT_DIR$/consumerweb/Dockerfile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/consumerweb/consumerweb.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/household_provider/src/main/java/com/microservice/provider/HouseHoldProvider.java" afterPath="$PROJECT_DIR$/household_provider/src/main/java/com/microservice/provider/HouseHoldProvider.java" />
-      <change beforePath="$PROJECT_DIR$/household_provider/src/main/resources/microservice.yaml" afterPath="$PROJECT_DIR$/household_provider/src/main/resources/microservice.yaml" />
-      <change beforePath="$PROJECT_DIR$/mall_consumerweb/Dockerfile" afterPath="$PROJECT_DIR$/mall_consumerweb/Dockerfile" />
+      <change beforePath="$PROJECT_DIR$/mall_consumerweb/Dockerfile" afterPath="$PROJECT_DIR$/consumerweb/Dockerfile" />
+      <change beforePath="$PROJECT_DIR$/mall_consumerweb/mall_consumerweb.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mall_consumerweb/package.json" afterPath="$PROJECT_DIR$/consumerweb/package.json" />
+      <change beforePath="$PROJECT_DIR$/mall_consumerweb/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mall_consumerweb/src/main/java/com/microservice/StartApp.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mall_consumerweb/src/main/resources/spring/springmvc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mall_consumerweb/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/consumerweb/app/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/mall_consumerweb/src/main/webapp/image/aircontroller.jpg" afterPath="$PROJECT_DIR$/consumerweb/app/image/aircontroller.jpg" />
+      <change beforePath="$PROJECT_DIR$/mall_consumerweb/src/main/webapp/image/computer.jpg" afterPath="$PROJECT_DIR$/consumerweb/app/image/computer.jpg" />
+      <change beforePath="$PROJECT_DIR$/mall_consumerweb/src/main/webapp/image/fridge.jpg" afterPath="$PROJECT_DIR$/consumerweb/app/image/fridge.jpg" />
+      <change beforePath="$PROJECT_DIR$/mall_consumerweb/src/main/webapp/image/layout.jpg" afterPath="$PROJECT_DIR$/consumerweb/app/image/layout.jpg" />
+      <change beforePath="$PROJECT_DIR$/mall_consumerweb/src/main/webapp/image/transport.jpg" afterPath="$PROJECT_DIR$/consumerweb/app/image/transport.jpg" />
+      <change beforePath="$PROJECT_DIR$/mall_consumerweb/src/main/webapp/image/washer.jpg" afterPath="$PROJECT_DIR$/consumerweb/app/image/washer.jpg" />
+      <change beforePath="$PROJECT_DIR$/mall_consumerweb/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/consumerweb/app/index.html" />
+      <change beforePath="$PROJECT_DIR$/mall_consumerweb/src/main/webapp/js/axios-0.18.0.js" afterPath="$PROJECT_DIR$/consumerweb/app/js/axios-0.18.0.js" />
+      <change beforePath="$PROJECT_DIR$/mall_consumerweb/src/main/webapp/js/page.js" afterPath="$PROJECT_DIR$/consumerweb/app/js/page.js" />
+      <change beforePath="$PROJECT_DIR$/mall_consumerweb/src/main/webapp/js/vue-layer.js" afterPath="$PROJECT_DIR$/consumerweb/app/js/vue-layer.js" />
+      <change beforePath="$PROJECT_DIR$/mall_consumerweb/src/main/webapp/js/vue-select.js" afterPath="$PROJECT_DIR$/consumerweb/app/js/vue-select.js" />
+      <change beforePath="$PROJECT_DIR$/mall_consumerweb/src/main/webapp/js/vuejs-2.5.16.js" afterPath="$PROJECT_DIR$/consumerweb/app/js/vuejs-2.5.16.js" />
     </list>
     <ignored path="$PROJECT_DIR$/household_provider/target/" />
     <ignored path="$PROJECT_DIR$/household_providerdeta/target/" />
@@ -28,107 +51,58 @@
       <file leaf-file-name="microservice.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/household_provider/src/main/resources/microservice.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="252">
+              <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="microservice.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mall_consumer/src/main/resources/microservice.yaml">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumerweb/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="microservice.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/household_providerdeta/src/main/resources/microservice.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MallConsumer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mall_consumer/src/main/java/com/microservice/consumer/MallConsumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-              <folding>
-                <element signature="e#1631#1632#0" expanded="true" />
-                <element signature="e#1678#1679#0" expanded="true" />
-                <element signature="e#1911#1912#0" expanded="true" />
-                <element signature="e#1966#1967#0" expanded="true" />
-                <element signature="e#2078#2079#0" expanded="true" />
-                <element signature="e#2129#2130#0" expanded="true" />
-                <element signature="e#2241#2242#0" expanded="true" />
-                <element signature="e#2297#2298#0" expanded="true" />
-                <element signature="e#2617#2618#0" expanded="true" />
-                <element signature="e#2669#2670#0" expanded="true" />
-                <element signature="e#2745#2746#0" expanded="true" />
-                <element signature="e#2792#2793#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HouseHoldProvider.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HouseHoldProvider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/household_provider/src/main/java/com/microservice/provider/HouseHoldProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="32" column="49" lean-forward="false" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1683#1694#0" expanded="true" />
-                <element signature="e#2317#2318#0" expanded="true" />
-                <element signature="e#2366#2367#0" expanded="true" />
-                <element signature="e#2562#2573#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="483">
+              <caret line="32" column="107" lean-forward="false" selection-start-line="32" selection-start-column="107" selection-end-line="32" selection-end-column="107" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/consumerweb/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumerweb/app/js/page.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mall_consumerweb/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/consumerweb/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mall_consumerweb/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/household_providerdeta/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="95" lean-forward="false" selection-start-line="4" selection-start-column="95" selection-end-line="4" selection-end-column="95" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="microservice.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pcservice_provider/src/main/resources/microservice.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -161,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/household_provider/src/main/java/com/microservice/model/Result.java" />
         <option value="$PROJECT_DIR$/household_providerdeta/src/main/java/com/microservice/model/Result.java" />
         <option value="$PROJECT_DIR$/pcservice_provider/src/main/java/com/microservice/model/Result.java" />
         <option value="$PROJECT_DIR$/mall_consumer/src/main/java/com/microservice/service/HouseHoldProviderDeta.java" />
@@ -212,6 +185,7 @@
         <option value="$PROJECT_DIR$/mall_consumerweb/package.json" />
         <option value="$PROJECT_DIR$/household_provider/src/main/resources/microservice.yaml" />
         <option value="$PROJECT_DIR$/household_provider/src/main/java/com/microservice/provider/HouseHoldProvider.java" />
+        <option value="$PROJECT_DIR$/consumerweb/Dockerfile" />
       </list>
     </option>
   </component>
@@ -273,6 +247,31 @@
             <path>
               <item name="newdemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="newdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumerweb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumerweb" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumerweb" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="consumerweb" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="newdemo" type="b2602c69:ProjectViewProjectNode" />
@@ -388,59 +387,6 @@
               <item name="newdemo" type="462c0819:PsiDirectoryNode" />
               <item name="mall_consumer" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="newdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_consumerweb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_consumerweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_consumerweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_consumerweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_consumerweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_consumerweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_consumerweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -462,6 +408,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\repo\newdemo\mall_consumerweb\src" />
       <recent name="D:\repo\newdemo\test_provider\src\main\resources\META-INF\spring" />
       <recent name="D:\repo\newdemo\test_provider\src\main\resources\META-INF" />
     </key>
@@ -470,11 +417,11 @@
       <recent name="com.microservice.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\repo\newdemo\consumerweb" />
       <recent name="D:\repo\newdemo\pcservice_provider\src\main\resources" />
       <recent name="D:\repo\newdemo\mall_consumer\src\main\resources" />
       <recent name="D:\repo\newdemo\household_providerdeta\src\main\resources" />
       <recent name="D:\repo\newdemo\household_provider\src\main\resources" />
-      <recent name="D:\repo\newdemo\test_provider" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -698,7 +645,7 @@
       <workItem from="1559910762438" duration="18894000" />
       <workItem from="1560039862278" duration="30320000" />
       <workItem from="1560234436991" duration="7383000" />
-      <workItem from="1560310916882" duration="20170000" />
+      <workItem from="1560310916882" duration="22211000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1559566698542</created>
@@ -1036,15 +983,21 @@
       <option name="project" value="LOCAL" />
       <updated>1560350048796</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="test">
+      <created>1560353101517</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1560353101517</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141866000" />
+    <option name="totallyTimeSpent" value="143907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2888601" sideWeight="0.50061125" order="7" side_tool="true" content_ui="tabs" />
@@ -1063,12 +1016,11 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973805" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28407225" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.055829227" sideWeight="0.49938875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25123152" sideWeight="0.49938875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25416037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25416037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1077,6 +1029,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819724" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1100,16 +1053,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_provider/startup.bat" />
-    <entry file="file://$PROJECT_DIR$/test_provider/startup.sh" />
-    <entry file="file://$MAVEN_REPOSITORY$/com/huawei/paas/cse/cse-dependency/2.3.69/cse-dependency-2.3.69.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3228">
-          <caret line="153" column="12" lean-forward="false" selection-start-line="153" selection-start-column="12" selection-end-line="153" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/household_provider/src/main/resources/config.spring.xml" />
     <entry file="file://$PROJECT_DIR$/household_provider/src/main/resources/config/httpproxy.properties" />
     <entry file="file://$PROJECT_DIR$/household_provider/src/main/resources/config/cse.bean.xml" />
     <entry file="file://$PROJECT_DIR$/household_providerdeta/src/main/java/com/microservice/model/Result.java">
@@ -1191,10 +1134,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall_consumerweb/src/main/webapp/js/page.js">
+    <entry file="file://$PROJECT_DIR$/mall_consumerweb/src/webapp/js/page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1245,7 +1189,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall_consumerweb/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/mall_consumerweb/src/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
@@ -1261,7 +1205,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall_consumerweb/src/main/webapp/index.html">
+    <entry file="file://$PROJECT_DIR$/mall_consumerweb/src/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -1322,18 +1266,18 @@
         <state relative-caret-position="420">
           <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
-            <element signature="e#1631#1632#0" expanded="true" />
-            <element signature="e#1678#1679#0" expanded="true" />
-            <element signature="e#1911#1912#0" expanded="true" />
-            <element signature="e#1966#1967#0" expanded="true" />
-            <element signature="e#2078#2079#0" expanded="true" />
-            <element signature="e#2129#2130#0" expanded="true" />
-            <element signature="e#2241#2242#0" expanded="true" />
-            <element signature="e#2297#2298#0" expanded="true" />
-            <element signature="e#2617#2618#0" expanded="true" />
-            <element signature="e#2669#2670#0" expanded="true" />
-            <element signature="e#2745#2746#0" expanded="true" />
-            <element signature="e#2792#2793#0" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="false" />
+            <element signature="e#1678#1679#0" expanded="false" />
+            <element signature="e#1911#1912#0" expanded="false" />
+            <element signature="e#1966#1967#0" expanded="false" />
+            <element signature="e#2078#2079#0" expanded="false" />
+            <element signature="e#2129#2130#0" expanded="false" />
+            <element signature="e#2241#2242#0" expanded="false" />
+            <element signature="e#2297#2298#0" expanded="false" />
+            <element signature="e#2617#2618#0" expanded="false" />
+            <element signature="e#2669#2670#0" expanded="false" />
+            <element signature="e#2745#2746#0" expanded="false" />
+            <element signature="e#2792#2793#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1384,7 +1328,7 @@
     <entry file="file://$PROJECT_DIR$/mall_consumerweb/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1400,30 +1344,56 @@
     <entry file="file://$PROJECT_DIR$/mall_consumerweb/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumerweb/app/js/page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/household_provider/src/main/resources/microservice.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="252">
+          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumerweb/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumerweb/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/household_provider/src/main/java/com/microservice/provider/HouseHoldProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="32" column="49" lean-forward="false" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1683#1694#0" expanded="true" />
-            <element signature="e#2317#2318#0" expanded="true" />
-            <element signature="e#2366#2367#0" expanded="true" />
-            <element signature="e#2562#2573#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="483">
+          <caret line="32" column="107" lean-forward="false" selection-start-line="32" selection-start-column="107" selection-end-line="32" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumerweb/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1481,7 +1451,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>mall_consumer</last-edited>
+          <last-edited>consumerweb</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

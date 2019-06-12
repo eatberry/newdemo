@@ -9,7 +9,6 @@
         <module name="household_provider" />
         <module name="household_providerdeta" />
         <module name="mall_consumer" />
-        <module name="mall_consumerweb" />
         <module name="pcservice_provider" />
         <module name="PCService_provider" />
       </profile>

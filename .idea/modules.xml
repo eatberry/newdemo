@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/consumerweb/consumerweb.iml" filepath="$PROJECT_DIR$/consumerweb/consumerweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/household_provider/household_provider.iml" filepath="$PROJECT_DIR$/household_provider/household_provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/household_providerdeta/household_providerdeta.iml" filepath="$PROJECT_DIR$/household_providerdeta/household_providerdeta.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall_consumer/mall_consumer.iml" filepath="$PROJECT_DIR$/mall_consumer/mall_consumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall_consumerweb/mall_consumerweb.iml" filepath="$PROJECT_DIR$/mall_consumerweb/mall_consumerweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/newdemo.iml" filepath="$PROJECT_DIR$/.idea/newdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/pcservice_provider/pcservice_provider.iml" filepath="$PROJECT_DIR$/pcservice_provider/pcservice_provider.iml" />
     </modules>
