@@ -8,4 +8,5 @@ import java.util.List;
 public interface HouseHoldProvider {
     Result sell(String name);
     List<HouseHold> list();
+    String getStr(String name);
 }

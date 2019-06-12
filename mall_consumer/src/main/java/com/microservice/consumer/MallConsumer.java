@@ -6,6 +6,8 @@ import com.microservice.model.Result;
 import com.microservice.service.HouseHoldProvider;
 import com.microservice.service.HouseHoldProviderDeta;
 import com.microservice.service.PCServiceProvider;
+import com.netflix.config.DynamicPropertyFactory;
+import com.netflix.config.DynamicStringProperty;
 import org.apache.servicecomb.provider.pojo.RpcReference;
 import org.apache.servicecomb.provider.rest.common.RestSchema;
 
@@ -31,6 +33,8 @@ public class MallConsumer {
     @RpcReference(microserviceName = "pcserviceprovider",schemaId = "pcservice")
     private PCServiceProvider pcServiceProvider;
 
+    private DynamicStringProperty sellGoodes = DynamicPropertyFactory.getInstance().getStringProperty("hi.buyGoodes","");
+
     //==============================v0==================================
     /****
      * 无配送业务家电
@@ -50,6 +54,17 @@ public class MallConsumer {
     @GET
     public List<HouseHold> list(){
         return houseHoldProvider.list();
+    }
+
+    /****
+     * 测试配置
+     * @param name
+     * @return
+     */
+    @Path("/str")
+    @GET
+    public String str(@QueryParam("name")String name){
+        return sellGoodes.getValue()+houseHoldProvider.getStr(name);
     }
 
     //===============================v1=================================
