@@ -19,7 +19,7 @@ cse:
       serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
   rest:
       address: 0.0.0.0:18081
-microconfig:
+household:
     sellhousehold: providerprefix
   #credentials:
   #    accessKey: INWGFFM9ELTZXHPCPC5G

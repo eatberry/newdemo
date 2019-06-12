@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f65789b-015e-47f2-8747-5aa3f892c77d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mall_consumerweb/package.json" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/cse.log" afterPath="$PROJECT_DIR$/cse.log" />
-      <change beforePath="$PROJECT_DIR$/household_provider/household_provider.iml" afterPath="$PROJECT_DIR$/household_provider/household_provider.iml" />
-      <change beforePath="$PROJECT_DIR$/household_provider/pom.xml" afterPath="$PROJECT_DIR$/household_provider/pom.xml" />
       <change beforePath="$PROJECT_DIR$/household_provider/src/main/java/com/microservice/provider/HouseHoldProvider.java" afterPath="$PROJECT_DIR$/household_provider/src/main/java/com/microservice/provider/HouseHoldProvider.java" />
       <change beforePath="$PROJECT_DIR$/household_provider/src/main/resources/microservice.yaml" afterPath="$PROJECT_DIR$/household_provider/src/main/resources/microservice.yaml" />
+      <change beforePath="$PROJECT_DIR$/mall_consumerweb/Dockerfile" afterPath="$PROJECT_DIR$/mall_consumerweb/Dockerfile" />
     </list>
     <ignored path="$PROJECT_DIR$/household_provider/target/" />
     <ignored path="$PROJECT_DIR$/household_providerdeta/target/" />
@@ -27,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="microservice.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="microservice.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/household_provider/src/main/resources/microservice.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            <state relative-caret-position="275">
+              <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -52,16 +50,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
               <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HouseHoldProviderDeta.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/household_providerdeta/src/main/java/com/microservice/provider/HouseHoldProviderDeta.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="903">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,18 +78,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HouseHoldProvider.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HouseHoldProvider.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/household_provider/src/main/java/com/microservice/provider/HouseHoldProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="65" column="42" lean-forward="true" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+            <state relative-caret-position="443">
+              <caret line="32" column="49" lean-forward="false" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1687#1698#0" expanded="true" />
-                <element signature="e#2321#2322#0" expanded="true" />
-                <element signature="e#2370#2371#0" expanded="true" />
-                <element signature="e#2566#2577#0" expanded="true" />
+                <element signature="e#1683#1694#0" expanded="true" />
+                <element signature="e#2317#2318#0" expanded="true" />
+                <element signature="e#2366#2367#0" expanded="true" />
+                <element signature="e#2562#2573#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall_consumerweb/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall_consumerweb/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/household_providerdeta/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="95" lean-forward="false" selection-start-line="4" selection-start-column="95" selection-end-line="4" selection-end-column="95" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,26 +129,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
               <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PCServiceProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pcservice_provider/src/main/java/com/microservice/provider/PCServiceProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-189">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cse.bean.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/household_provider/src/main/resources/META-INF/spring/cse.bean.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -163,7 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mall_consumer/src/main/java/com/microservice/model/Result.java" />
         <option value="$PROJECT_DIR$/household_provider/src/main/java/com/microservice/model/Result.java" />
         <option value="$PROJECT_DIR$/household_providerdeta/src/main/java/com/microservice/model/Result.java" />
         <option value="$PROJECT_DIR$/pcservice_provider/src/main/java/com/microservice/model/Result.java" />
@@ -199,7 +196,6 @@
         <option value="$PROJECT_DIR$/household_provider/src/main/resources/META-INF/spring/spring.xml" />
         <option value="$PROJECT_DIR$/household_providerdeta/Dockerfile" />
         <option value="$PROJECT_DIR$/mall_consumer/Dockerfile" />
-        <option value="$PROJECT_DIR$/mall_consumerweb/Dockerfile" />
         <option value="$PROJECT_DIR$/pcservice_provider/Dockerfile" />
         <option value="$PROJECT_DIR$/test_provider/Dockerfile" />
         <option value="$PROJECT_DIR$/mall_consumer/pom.xml" />
@@ -212,6 +208,8 @@
         <option value="$PROJECT_DIR$/pcservice_provider/src/main/resources/microservice.yaml" />
         <option value="$PROJECT_DIR$/mall_consumer/src/main/java/com/microservice/consumer/MallConsumer.java" />
         <option value="$PROJECT_DIR$/mall_consumer/src/main/resources/microservice.yaml" />
+        <option value="$PROJECT_DIR$/mall_consumerweb/Dockerfile" />
+        <option value="$PROJECT_DIR$/mall_consumerweb/package.json" />
         <option value="$PROJECT_DIR$/household_provider/src/main/resources/microservice.yaml" />
         <option value="$PROJECT_DIR$/household_provider/src/main/java/com/microservice/provider/HouseHoldProvider.java" />
       </list>
@@ -394,6 +392,54 @@
               <item name="newdemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="newdemo" type="462c0819:PsiDirectoryNode" />
               <item name="mall_consumerweb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="mall_consumerweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="mall_consumerweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="mall_consumerweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="mall_consumerweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="mall_consumerweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="mall_consumerweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -652,7 +698,7 @@
       <workItem from="1559910762438" duration="18894000" />
       <workItem from="1560039862278" duration="30320000" />
       <workItem from="1560234436991" duration="7383000" />
-      <workItem from="1560310916882" duration="17421000" />
+      <workItem from="1560310916882" duration="20170000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1559566698542</created>
@@ -983,11 +1029,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560330682794</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="test">
+      <created>1560350048796</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1560350048796</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139117000" />
+    <option name="totallyTimeSpent" value="141866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1013,7 +1066,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.055829227" sideWeight="0.49938875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2473525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25416037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1047,8 +1100,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_provider/src/main/java/com/microservice/MainApp.java" />
-    <entry file="file://$PROJECT_DIR$/test_provider/start.sh" />
     <entry file="file://$PROJECT_DIR$/test_provider/startup.bat" />
     <entry file="file://$PROJECT_DIR$/test_provider/startup.sh" />
     <entry file="file://$MAVEN_REPOSITORY$/com/huawei/paas/cse/cse-dependency/2.3.69/cse-dependency-2.3.69.pom">
@@ -1109,21 +1160,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/household_providerdeta/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="95" lean-forward="false" selection-start-line="4" selection-start-column="95" selection-end-line="4" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mall_consumer/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="95" lean-forward="false" selection-start-line="4" selection-start-column="95" selection-end-line="4" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_consumerweb/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="95" lean-forward="false" selection-start-line="4" selection-start-column="95" selection-end-line="4" selection-end-column="95" />
@@ -1336,25 +1373,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/household_provider/src/main/java/com/microservice/provider/HouseHoldProvider.java">
+    <entry file="file://$PROJECT_DIR$/household_providerdeta/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="65" column="42" lean-forward="true" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1687#1698#0" expanded="true" />
-            <element signature="e#2321#2322#0" expanded="true" />
-            <element signature="e#2370#2371#0" expanded="true" />
-            <element signature="e#2566#2577#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="84">
+          <caret line="4" column="95" lean-forward="false" selection-start-line="4" selection-start-column="95" selection-end-line="4" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_consumerweb/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_consumerweb/1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_consumerweb/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/household_provider/src/main/resources/microservice.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="275">
+          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/household_provider/src/main/java/com/microservice/provider/HouseHoldProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="32" column="49" lean-forward="false" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1683#1694#0" expanded="true" />
+            <element signature="e#2317#2318#0" expanded="true" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2562#2573#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

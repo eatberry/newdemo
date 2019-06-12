@@ -23,14 +23,14 @@ public class HouseHoldProvider {
     private HouseHold houseHold2 = new HouseHold("变频空调", 3000.00, "格力", "空调类型: 壁挂式, 最大功率: 大1.5匹, 冷暖类型: 冷暖型");
     private HouseHold houseHold3 = new HouseHold("洗衣机", 1799.99, "合肥美的", "产品类型: 滚筒洗衣机, 使用方式: 全自动, 洗衣程序: 单脱水, 羽绒服, 混合羊毛, 其他");
 
-    private DynamicStringProperty sellPrefix = DynamicPropertyFactory.getInstance().getStringProperty("microconfig.sellhousehold","",notifyConfigRefreshed());
+    private DynamicStringProperty sellPrefix = DynamicPropertyFactory.getInstance().getStringProperty("household.sellhousehold","",notifyConfigRefreshed());
 
 
     private static final Logger LOGGER = LoggerFactory.getLogger(HouseHoldProvider.class);
 
 
     private Runnable notifyConfigRefreshed(){
-        return () ->LOGGER.info("config[microconfig.sellhousehold] changed to [{}] !",sellPrefix.getValue());
+        return () ->LOGGER.info("config[household.sellhousehold] changed to [{}] !",sellPrefix.getValue());
     }
     /****
      * 无配送业务
