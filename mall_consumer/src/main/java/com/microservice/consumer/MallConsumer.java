@@ -33,7 +33,7 @@ public class MallConsumer {
     @RpcReference(microserviceName = "pcserviceprovider",schemaId = "pcservice")
     private PCServiceProvider pcServiceProvider;
 
-    private DynamicStringProperty sellGoodes = DynamicPropertyFactory.getInstance().getStringProperty("hi.buyGoodes","");
+
 
     //==============================v0==================================
     /****
@@ -54,17 +54,6 @@ public class MallConsumer {
     @GET
     public List<HouseHold> list(){
         return houseHoldProvider.list();
-    }
-
-    /****
-     * 测试配置
-     * @param name
-     * @return
-     */
-    @Path("/str")
-    @GET
-    public String str(@QueryParam("name")String name){
-        return sellGoodes.getValue()+houseHoldProvider.getStr(name);
     }
 
     //===============================v1=================================
