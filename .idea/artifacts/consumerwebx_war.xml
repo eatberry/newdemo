@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="consumerwebx:war">
+    <output-path>$PROJECT_DIR$/consumerwebx/target</output-path>
+    <root id="archive" name="consumerwebx-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="consumerwebx:war exploded" />
+    </root>
+  </artifact>
+</component>

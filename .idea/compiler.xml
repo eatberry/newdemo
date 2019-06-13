@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="consumerwebx" />
         <module name="household_provider" />
         <module name="household_providerdeta" />
         <module name="mall_consumer" />
@@ -15,6 +16,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="commons_model" target="1.8" />
+      <module name="consumerwebx" target="1.8" />
       <module name="household_provider" target="1.8" />
       <module name="household_providerdeta" target="1.5" />
       <module name="mall_consumer" target="1.8" />
