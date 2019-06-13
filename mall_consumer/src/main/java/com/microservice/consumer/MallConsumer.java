@@ -10,6 +10,8 @@ import com.netflix.config.DynamicPropertyFactory;
 import com.netflix.config.DynamicStringProperty;
 import org.apache.servicecomb.provider.pojo.RpcReference;
 import org.apache.servicecomb.provider.rest.common.RestSchema;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -33,7 +35,12 @@ public class MallConsumer {
     @RpcReference(microserviceName = "pcserviceprovider",schemaId = "pcservice")
     private PCServiceProvider pcServiceProvider;
 
+    private DynamicStringProperty sellprefix = DynamicPropertyFactory.getInstance().getStringProperty("household.sellhousehold","",notifyconfigRefreshed());
 
+    private Runnable notifyconfigRefreshed(){
+        return ()->LOGGER.info("config[household.sellhousehold] changed to [{}]!",sellprefix.getValue());
+    }
+    private static final Logger LOGGER = LoggerFactory.getLogger(MallConsumer.class);
 
     //==============================v0==================================
     /****
@@ -45,6 +52,11 @@ public class MallConsumer {
     @GET
     public Result sellElec(@QueryParam("name")String name)throws Exception{
         return houseHoldProvider.sell(name);
+    }
+    @Path("/conf")
+    @GET
+    public String getStr(@QueryParam("name")String name){
+        return sellprefix.getValue()+name;
     }
     /****
      * 查看所有
