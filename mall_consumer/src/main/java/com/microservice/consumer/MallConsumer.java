@@ -56,7 +56,7 @@ public class MallConsumer {
     @Path("/conf")
     @GET
     public String getStr(@QueryParam("name")String name){
-        return sellprefix.getValue()+name;
+        return sellprefix.getValue()+""+houseHoldProvider.getStr(name);
     }
     /****
      * 查看所有
