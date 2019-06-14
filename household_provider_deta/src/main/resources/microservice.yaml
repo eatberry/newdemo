@@ -17,7 +17,7 @@ cse:
     client:
       serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
   rest:
-      address: 0.0.0.0:18080
+      address: 0.0.0.0:18081
 household:
     sellhousehold: providerprefix
   #credentials:
