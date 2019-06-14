@@ -58,6 +58,8 @@ public class MallConsumer {
     public Result sellElec(@QueryParam("name")String name)throws Exception{
         return houseHoldProvider.sell(name);
     }
+
+
     @Path("/conf")
     @GET
     public String getStr(@QueryParam("name")String name){
