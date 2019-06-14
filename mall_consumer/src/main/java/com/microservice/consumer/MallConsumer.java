@@ -29,9 +29,6 @@ public class MallConsumer {
     @RpcReference(microserviceName = "householdprovider",schemaId = "household")
     private HouseHoldProvider houseHoldProvider;
 
-    //rpc远程注入HouseHoldProviderDeta
-    @RpcReference(microserviceName = "householdprovider",schemaId = "household")
-    private HouseHoldProviderDeta houseHoldProviderDeta;
 
     //rpc远程注入PCServiceProvider
     @RpcReference(microserviceName = "pcserviceprovider",schemaId = "pcservice")
@@ -44,12 +41,9 @@ public class MallConsumer {
     }
     private static final Logger LOGGER = LoggerFactory.getLogger(MallConsumer.class);
 
-
-    private RestTemplate restTemplate = RestTemplateBuilder.create();
-
     //============v0================
     /****
-     * 无配送业务家电
+     * 家电业务
      * @param name
      * @return
      */
@@ -59,16 +53,6 @@ public class MallConsumer {
         return houseHoldProvider.sell(name);
     }
 
-    /****
-     * 测试配置
-     * @param name
-     * @return
-     */
-    @Path("/conf")
-    @GET
-    public String getStr(@QueryParam("name")String name){
-        return sellprefix.getValue()+""+houseHoldProvider.getStr(name);
-    }
     /****
      * 查看所有
      * @return
@@ -80,13 +64,14 @@ public class MallConsumer {
     }
 
     /****
-     * 增添额外的配送业务接口
+     * 测试配置
+     * @param name
      * @return
      */
-    @Path("/trans")
+    @Path("/conf")
     @GET
-    public Result transport(){
-        return houseHoldProviderDeta.transport();
+    public String getStr(@QueryParam("name")String name){
+        return sellprefix.getValue()+""+houseHoldProvider.getStr(name);
     }
     //================================v1
 
