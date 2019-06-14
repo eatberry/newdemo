@@ -10,7 +10,6 @@
         <module name="household_provider (1)" />
         <module name="household_provider_deta" />
         <module name="household_providerdeta" />
-        <module name="household_providerex" />
         <module name="mall_consumer" />
         <module name="pcservice_provider" />
         <module name="PCService_provider" />

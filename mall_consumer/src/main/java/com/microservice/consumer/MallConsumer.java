@@ -10,8 +10,10 @@ import com.netflix.config.DynamicPropertyFactory;
 import com.netflix.config.DynamicStringProperty;
 import org.apache.servicecomb.provider.pojo.RpcReference;
 import org.apache.servicecomb.provider.rest.common.RestSchema;
+import org.apache.servicecomb.provider.springmvc.reference.RestTemplateBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.web.client.RestTemplate;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -41,6 +43,9 @@ public class MallConsumer {
         return ()->LOGGER.info("config[household.sellhousehold] changed to [{}]!",sellprefix.getValue());
     }
     private static final Logger LOGGER = LoggerFactory.getLogger(MallConsumer.class);
+
+
+    private RestTemplate restTemplate = RestTemplateBuilder.create();
 
     //==============================v0==================================
     /****
