@@ -47,7 +47,7 @@ public class MallConsumer {
 
     private RestTemplate restTemplate = RestTemplateBuilder.create();
 
-    //==============================v0==================================
+    //============v0================
     /****
      * 无配送业务家电
      * @param name
@@ -59,7 +59,11 @@ public class MallConsumer {
         return houseHoldProvider.sell(name);
     }
 
-
+    /****
+     * 测试配置
+     * @param name
+     * @return
+     */
     @Path("/conf")
     @GET
     public String getStr(@QueryParam("name")String name){
@@ -75,26 +79,6 @@ public class MallConsumer {
         return houseHoldProvider.list();
     }
 
-    //===============================v1=================================
-    /****
-     * 有配送业务家电
-     * @param name
-     * @return
-     */
-    @Path("/sellex")
-    @GET
-    public Result sellElecEx(@QueryParam("name")String name){
-        return houseHoldProviderDeta.sell(name);
-    }
-    /****
-     * 查看所有
-     * @return
-     */
-    @Path("/listex")
-    @GET
-    public List<HouseHold> listex(){
-        return houseHoldProviderDeta.list();
-    }
     /****
      * 增添额外的配送业务接口
      * @return
@@ -104,10 +88,9 @@ public class MallConsumer {
     public Result transport(){
         return houseHoldProviderDeta.transport();
     }
-    //================================v1==================================
+    //================================v1
 
-
-    //================================pcservice v0==================================
+    //=========pcservice v0============
     /****
      * PC业务
      * @param pname
@@ -124,5 +107,5 @@ public class MallConsumer {
     public List<PCService> plist(){
         return pcServiceProvider.list();
     }
-    //================================pcservice v0==================================
+    //=========pcservice v0============
 }
