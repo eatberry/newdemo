@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/consumerweb/consumerweb.iml" filepath="$PROJECT_DIR$/consumerweb/consumerweb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/consumerwebx/consumerwebx.iml" filepath="$PROJECT_DIR$/consumerwebx/consumerwebx.iml" />
       <module fileurl="file://$PROJECT_DIR$/household_provider/household_provider.iml" filepath="$PROJECT_DIR$/household_provider/household_provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/household_provider_deta/household_provider_deta.iml" filepath="$PROJECT_DIR$/household_provider_deta/household_provider_deta.iml" />
       <module fileurl="file://$PROJECT_DIR$/household_providerdeta/household_providerdeta.iml" filepath="$PROJECT_DIR$/household_providerdeta/household_providerdeta.iml" />
