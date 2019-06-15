@@ -31,6 +31,7 @@ public class MallConsumer {
     @RpcReference(microserviceName = "pcserviceprovider",schemaId = "pcservice")
     private PCServiceProvider pcServiceProvider;
 
+    //获取配置key
     private DynamicStringProperty sellprefix = DynamicPropertyFactory.getInstance().getStringProperty("household.sellhousehold","",notifyconfigRefreshed());
 
     private Runnable notifyconfigRefreshed(){
@@ -38,7 +39,7 @@ public class MallConsumer {
     }
     private static final Logger LOGGER = LoggerFactory.getLogger(MallConsumer.class);
 
-    //============v0================
+    //============v0===============
     /****
      * 家电业务
      * @param name
