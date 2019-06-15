@@ -25,9 +25,7 @@ public class HouseHoldProvider {
 
     private DynamicStringProperty sellPrefix = DynamicPropertyFactory.getInstance().getStringProperty("household.sellhousehold","",notifyConfigRefreshed());
 
-
     private static final Logger LOGGER = LoggerFactory.getLogger(HouseHoldProvider.class);
-
 
     private Runnable notifyConfigRefreshed(){
         return () ->LOGGER.info("config[household.sellhousehold] changed to [{}] !",sellPrefix.getValue());
