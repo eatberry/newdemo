@@ -19,12 +19,12 @@ cse:
       serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
   rest:
       address: 0.0.0.0:18081
-  handler:
-      chain:
-        Provider:
-          default: auth-provider
-        Consumer:
-          default: auth-consumer
+  #handler:
+  #    chain:
+  #      Provider:
+  #        default: auth-provider
+  #      Consumer:
+  #        default: auth0-consumer
 household:
     sellhousehold: providerprefix
   #credentials:
