@@ -43,7 +43,7 @@ public class HouseHoldProvider {
         if ("bingxiang".equals(name)){
             list.add(houseHold1);
             return new Result(list);
-        }else if ("空调".equals(name)){
+        }else if ("空调1".equals(name)){
             list.add(houseHold2);
             return new Result(list);
         }else if ("洗衣机".equals(name)){
@@ -72,6 +72,7 @@ public class HouseHoldProvider {
     public List<HouseHold> list(){
         List<HouseHold> houseHolds = new ArrayList<HouseHold>();
         houseHolds.add(houseHold1);
+        System.out.println("");
         houseHolds.add(houseHold2);
         houseHolds.add(houseHold3);
         return houseHolds;
