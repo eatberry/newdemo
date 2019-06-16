@@ -21,14 +21,3 @@ cse:
       address: 0.0.0.0:18081
 household:
     sellhousehold: providerprefix
-  #credentials:
-  #    accessKey: INWGFFM9ELTZXHPCPC5G
-  #    secretKey: yeTR0MeaTMvZu4ioBrCrjtzzUJ266s0y2eA39UPv
-  #    project: cn-north-1
-  #    akskCustomCipher: default
-    #handler:
-    #    chain:
-    #      Provider:
-    #        default: auth-provider
-    #      Consumer:
-    #        default: auth0-consumer
