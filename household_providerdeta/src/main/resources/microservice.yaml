@@ -2,7 +2,7 @@ APPLICATION_ID: microservice-shop
 service_description:
   name: householdprovider
   version: 0.0.4
-  description: Basic version of householdprovider service
+  description: high version of householdprovider service
 cse:
   service:
     registry:

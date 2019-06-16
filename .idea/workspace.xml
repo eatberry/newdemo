@@ -126,8 +126,8 @@
       <file leaf-file-name="microservice.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/household_providerdeta/src/main/resources/microservice.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="57">
+              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -745,14 +745,7 @@
       <workItem from="1560234436991" duration="7383000" />
       <workItem from="1560310916882" duration="54048000" />
       <workItem from="1560566641712" duration="2848000" />
-      <workItem from="1560581839830" duration="12575000" />
-    </task>
-    <task id="LOCAL-00028" summary="test">
-      <created>1560161778824</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1560161778824</updated>
+      <workItem from="1560581839830" duration="12604000" />
     </task>
     <task id="LOCAL-00029" summary="test">
       <created>1560171810234</created>
@@ -1090,11 +1083,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560682620569</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="test">
+      <created>1560682897856</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1560682897856</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191167000" />
+    <option name="totallyTimeSpent" value="191196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1363,8 +1363,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/household_providerdeta/src/main/resources/microservice.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="57">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
       </provider>
