@@ -21,3 +21,10 @@ cse:
       address: 0.0.0.0:18081
 household:
     sellhousehold: providerprefix
+servicecomb:
+  handler:
+        chain:
+          Provider:
+            default: auth-provider
+          Consumer:
+            default: auth-consumer
