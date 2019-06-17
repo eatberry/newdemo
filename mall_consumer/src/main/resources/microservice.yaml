@@ -2,15 +2,16 @@ APPLICATION_ID: microservice-shop
 service_description:
   name: mallconsumer
   version: 0.0.1
+  description: Basic version of consumer
 cse:
   service:
     registry:
-      address: https://cse.cn-north-1.myhuaweicloud.com:443
+      address:  https://cse.cn-north-1.myhuaweicloud.com:443
       instance:
         watch: false
   config:
     client:
-      serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
+      serverUri:  https://cse.cn-north-1.myhuaweicloud.com:443
       refreshMode: 1
       refresh_interval: 5000
   monitor:
@@ -19,4 +20,11 @@ cse:
   rest:
       address: 0.0.0.0:18084
 household:
-     sellhousehold: consumerprefix
+    sellhousehold: consumerprefix
+servicecomb:
+  handler:
+        chain:
+          Provider:
+            default: auth-provider
+          Consumer:
+            default: auth-consumer
