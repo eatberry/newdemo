@@ -2,7 +2,7 @@ APPLICATION_ID: microservice-shop
 service_description:
   name: householdprovider
   version: 0.0.4
-  description: high version of householdprovider service
+  description: Basic version of householdprovider service
 cse:
   service:
     registry:
@@ -18,7 +18,7 @@ cse:
     client:
       serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
   rest:
-      address: 0.0.0.0:18085
+      address: 0.0.0.0:18082
 household:
     sellhousehold: providerprefix
 servicecomb:
