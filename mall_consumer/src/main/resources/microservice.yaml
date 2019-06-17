@@ -2,7 +2,6 @@ APPLICATION_ID: microservice-shop
 service_description:
   name: mallconsumer
   version: 0.0.2
-  description: Basic version of mallconsumer
 cse:
   service:
     registry:
