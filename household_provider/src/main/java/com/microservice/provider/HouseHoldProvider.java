@@ -43,7 +43,7 @@ public class HouseHoldProvider {
         if ("bingxiang".equals(name)){
             list.add(houseHold1);
             return new Result(list);
-        }else if ("空调1".equals(name)){
+        }else if ("空调".equals(name)){
             list.add(houseHold2);
             return new Result(list);
         }else if ("洗衣机".equals(name)){
